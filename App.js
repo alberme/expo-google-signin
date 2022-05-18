@@ -3,6 +3,12 @@ import * as WebBrowser from 'expo-web-browser';
 import { discovery } from 'expo-auth-session/providers/google';
 import { Button, View, SafeAreaView, StyleSheet, StatusBar } from 'react-native';
 
+/**
+ * Only reproducible in a local environment
+ * Click the button. A popup window should appear. Ignore the Google authorization error screen.
+ * Close the popup window. Observe your terminal or browser console for deprecation errors.
+ */
+
 export default function App() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
